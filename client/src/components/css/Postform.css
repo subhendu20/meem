@@ -1,0 +1,107 @@
+.postform{
+          width:100%;
+          height:auto;
+          display:flex;
+          flex-direction: column;
+          background-color: #d1d0cf;
+          padding:10px;
+          border-radius: 10px;
+          position:relative;
+
+}
+.postform i{
+          position: absolute;
+          top:0%;
+          right:0%;
+          font-size: 30px;
+
+}
+.postform i:hover{
+          background-color: #999898;
+}
+.postform span{
+          width:100%;
+          margin:10px 0px;
+          padding:10px;
+          position: relative;
+
+
+}
+.postform span.imgarea{
+          border-radius: 10px;
+          background-color: #a8a39d;
+          color:rgb(78, 70, 70);
+          font-size: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          text-align: center;
+          
+          
+
+}
+.postform span.imgarea span.imgspan{
+          position: relative;
+          overflow: hidden;
+          
+}
+.postform span.imgarea span.imgspan img{
+          width:100%;
+          max-height: 300px;
+
+
+}
+
+.postform span.imgarea span.imgspan input{
+          position: relative;
+          transform: scale(20);
+          z-index: 11;
+          opacity: 0;
+}
+.postform span.imgarea span.imgspan p{
+          position: relative;
+          z-index: 4;
+}
+.postform span.title input{
+          width:100%;
+          padding:10px;
+          color:black;
+          background-color:#a8a39d ;
+          border:none;
+          border-radius: 10px;
+          font-size: 15px;
+          outline: none;
+          cursor: pointer;
+
+}
+.postform span.title input::placeholder{
+          font-size: 15px;
+}
+.postform span.textarea textarea{
+          width:100%;
+          padding:10px;
+          color:black;
+          background-color:#a8a39d ;
+          border:none;
+          border-radius: 10px;
+          font-size: 15px;
+          outline: none;
+          cursor: pointer;
+}
+.postform span.textarea textarea::placeholder{
+          font-size: 15px;
+}
+.postform span.buttons{
+          width:100%;
+          display:flex;
+          justify-content: center;
+}
+.postform span.buttons button{
+          padding:10px;
+          font-size: 15px;
+          background-color: rgb(56, 160, 56);
+          color:white;
+          border:none;
+          border-radius: 5px;
+}

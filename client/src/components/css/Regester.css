@@ -1,0 +1,67 @@
+.register-main{
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          
+
+         
+
+}
+.register-main form{
+          width:20%;
+          margin: auto;
+          height:auto;
+          display: flex;
+          flex-direction: column;
+          background-color:rgb(207, 203, 203) ;
+          border-radius: 5px;
+          box-shadow: rgba(10, 10, 10, 0.801) 0px 5px 15px;
+
+
+}
+.register-main form span{
+          width: 100%;
+          padding:10px;
+          display: flex;
+          justify-content: space-between;
+          font-weight: 500;
+}
+.register-main form span input{
+          width: 60%;
+          padding: 10px 10px;
+          background-color: rgb(134, 132, 132);
+          color:rgb(37, 36, 36);
+          border: none;
+          outline: none;
+          border-radius: 5px;
+          cursor: pointer;
+          
+}
+.register-main form span input::placeholder{
+          font-size: 15px;
+          color: rgb(37, 36, 36);
+}
+.register-main form span.buttons button{
+          padding:10px;
+          background-color: rgb(56, 160, 56);
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 15px;
+}
+.register-main form span.buttons{
+          justify-content: center;
+}
+.register-main form span.buttons button:hover{
+          background-color:rgb(40, 99, 40); 
+
+}
+.register-main form span.loginmessage p{
+          font-size: 15px;
+}
+.register-main form span.loginmessage a{
+          text-decoration: none;
+          font-size: 15px;
+          color: rgb(56, 160, 56);;
+}
+

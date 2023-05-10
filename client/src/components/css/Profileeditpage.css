@@ -1,0 +1,140 @@
+.update-profile{
+          width:100%;
+          height:100%;
+          display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+}
+
+.update-profile form.profile-image{
+          width:200px;
+          height:200px;
+          
+          
+          top:20%;
+          left:0%;
+          overflow: hidden;
+         
+          position: absolute;
+
+}
+.update-profile form.profile-image img{
+          width:100%;
+          height:100%;
+          position: relative;
+          z-index: 2;
+          border-radius: 50%;
+          border:4px solid black;
+
+
+}
+.update-profile form.profile-image .profile-upload-box{
+          position: absolute;
+          bottom: 10%;
+          right:10%;
+          padding:10px;
+          z-index: 3;
+          background-color: grey;
+          border-radius: 50%;
+          z-index: 6;
+         
+}
+.update-profile form.profile-image .profile-upload-box i{
+          font-size: 15px;
+          color:black;
+          position: relative;
+          z-index: 4;
+}
+.update-profile form.profile-image .profile-upload-box input{
+          position: absolute;
+          transform: scale(3);
+          opacity: 0;
+          z-index: 5;
+}
+.update-profile form.coverimg{
+          width:100%;
+          height:30%;
+          position: relative;
+          
+
+}
+
+.update-profile form.coverimg img{
+          width: 100%;
+          height:100%;
+          position: relative;
+          z-index: 0;
+
+}
+.update-profile form.coverimg .upload-box{
+          position: absolute;
+          bottom: 0%;
+          right:0%;
+          padding:10px;
+          border-radius: 50%;
+          background-color: grey;
+          display: flex;
+          justify-content: center;
+          overflow: hidden;
+          
+}
+.update-profile form.coverimg .upload-box i{
+          font-size: 15px;
+          color:black;
+}
+.update-profile form.coverimg .upload-box input{
+          position: absolute;
+          transform: scale(2);
+          z-index: 4;
+          opacity: 0;
+}
+
+.update-profile form.details{
+          width:100%;
+          height:55%;
+          overflow-y: auto;
+}
+.update-profile form.details span{
+          width:100%;
+          padding:20px;
+          display: flex;
+          flex-direction: column;
+}
+.update-profile form.details span input{
+          width:80%;
+          padding:10px;
+          border: none;
+          outline: none;
+          background: none;
+          color:black;
+          border-bottom: 3px solid black;
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+          margin: 10px 0px;
+
+}
+.update-profile form.details span input:hover{
+          background-color: rgb(187, 189, 190);
+
+}
+.update-profile form.details span.buttons{
+          width: 100%;
+          display: flex;
+          justify-content: center
+}
+.update-profile form.details span.buttons button{
+          background-color: rgb(56, 160, 56);
+          color:white;
+          font-size: 20px;
+          border: none;
+          border-radius: 5px;
+          padding: 10px;
+          width: fit-content;
+          margin: auto;
+}
+.update-profile form.details span.buttons button:hover{
+          background-color: rgb(37, 121, 37);
+}
+
+
