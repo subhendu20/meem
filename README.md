@@ -22,7 +22,7 @@ Deployment:
 The app is deployed on Render.
 
 Usage:
-1. Clone the repository: git clone -  https://github.com/.git](https://github.com/subhendu20/meem.git
+1. Clone the repository: git clone -  https://github.com/subhendu20/Helping-hand-Social-networking-site-.git
 2. Install dependencies: npm install (both in the root directory and the "client" folder).
 3. Set up environment variables for MongoDB connection and JWT secret.
 4. Run the app: npm run start for front end and npm run nodemon for backend 
